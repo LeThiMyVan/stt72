@@ -1,0 +1,263 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 789px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+
+/*---------------------header1-----------------------*/
+
+.head1 {
+    width: 789px;
+    height: 70px;
+    background-color: #AC4B16;
+}
+
+h1 {
+    color: #808000;
+    text-shadow: -5px -5px 4px antiquewhite;
+    letter-spacing: 4px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+
+/*---------------------menu-----------------------*/
+
+.menu {
+    width: 789px;
+    height: 35px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu ul {
+    display: flex;
+    position: absolute;
+}
+
+.menu li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.menu a {
+    color: #AC4B16;
+    margin-left: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*---------------------header2-----------------------*/
+
+.head2 {
+    width: 789px;
+    height: 120px;
+    background-color: bisque;
+}
+
+.head2 img {
+    width: 789px;
+    height: 120px;
+}
+
+
+/*---------------------content_l-----------------------*/
+
+.content_l {
+    width: 65%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+h2 {
+    color: rgb(162, 99, 17);
+    letter-spacing: 3px;
+    transform: scaleY(0.9);
+    /*nén chữ nhỏ lại theo chiều dọc*/
+    margin: 0px 20px;
+}
+
+.content_l p {
+    color: rgb(188, 173, 35);
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    margin: 20px 60px;
+}
+
+form {
+    width: 430px;
+    margin-top: 50px;
+}
+
+input {
+    font-size: 17px;
+    border: none;
+    margin-left: 3px;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 30px;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(138, 172, 26);
+    border: 1px;
+    border-radius: 3px;
+}
+
+#hrdoc {
+    width: 1px;
+    height: 570px;
+    display: left;
+    margin-left: 500px;
+    margin-top: -500px;
+}
+
+
+/*---------------------content_r-----------------------*/
+
+.content_r {
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+.content_r h2 {
+    color: rgb(109, 31, 31);
+    margin-top: 0px;
+    transform: scaleY(0.87);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.box {
+    border: 1px;
+    width: 230px;
+    height: 180px;
+    background-color: antiquewhite;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 30px;
+}
+
+.box li {
+    list-style-type: square;
+    margin-left: 70px;
+    color: brown;
+}
+
+.text {
+    margin-left: 40px;
+    width: 200px;
+}
+
+#h2 {
+    margin-left: 50px;
+    transform: scaleY(0.7);
+    margin-bottom: 20px;
+}
+
+.text img {
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.text p {
+    text-align: justify;
+    margin-right: 10px;
+}
+
+
+/*---------------------footer-----------------------*/
+
+footer {
+    width: 789px;
+    height: 55px;
+    margin-top: 500px;
+}
+
+#la5 {
+    display: block;
+    width: 55px;
+    margin-left: 0px;
+}
+
+#la4 {
+    display: block;
+    width: 95px;
+    margin-left: 0px;
+}
+
+#la3 {
+    display: block;
+    position: absolute;
+    width: 55px;
+    margin-left: 55px;
+    margin-top: 0px;
+}
+
+#la1 {
+    display: block;
+    width: 255px;
+    margin-left: 110px;
+    margin-top: -88px
+}
+
+#la12 {
+    display: block;
+    width: 255px;
+    margin-left: 330px;
+    margin-top: -56px
+}
+
+#la13 {
+    display: block;
+    width: 255px;
+    margin-left: 533px;
+    margin-top: -56px
+}
+
+#la31 {
+    display: block;
+    width: 90px;
+    margin-left: 696px;
+    margin-top: -24px;
+}
+
+#la41 {
+    display: block;
+    width: 80px;
+    margin-left: 735px;
+    margin-top: -1px;
+    transform: rotate(180deg);
+}
+
+#la2 {
+    display: block;
+    width: 80px;
+    margin-left: 706px;
+    margin-top: -1px;
+}
+
+footer p {
+    font-family: 'Franklin Gothic Medium', Arial;
+    text-align: center;
+    margin-top: -45px;
+    font-size: large;
+}

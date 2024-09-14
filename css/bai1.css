@@ -1,0 +1,140 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(104, 182, 239), rgb(3, 126, 214));
+}
+
+#h1top {
+    position: relative;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.074);
+    text-shadow: 5px 0px 5px blue;
+}
+
+
+/*---------------------menu-----------------------*/
+
+nav {
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    display: block;
+    /*dùng để có thể tác động đến đối tượng thuộc li*/
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#hr {
+    border: none;
+    border-top: 4px dotted white;
+    width: 100%;
+}
+
+
+/*---------------------content-----------------------*/
+
+h2 {
+    color: white;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+
+/*---------------------form-----------------------*/
+
+.form {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.form td {
+    color: white;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+.form input {
+    width: 250px;
+}
+
+.form .Specific td {
+    width: 170px;
+}
+
+.form textarea {
+    width: 250px;
+    height: 80px;
+}
+
+.right {
+    position: absolute;
+    margin-left: 550px;
+}
+
+.right img {
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+#h1bot {
+    color: blue;
+    margin-left: 100px;
+    text-shadow: 5px 4px 1px rgb(47, 47, 249);
+}
+
+h4 {
+    color: blue;
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+#hrbot {
+    border: none;
+    border-top: 4px dotted white;
+    width: 100%;
+    margin-top: 430px;
+}
+
+footer {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
